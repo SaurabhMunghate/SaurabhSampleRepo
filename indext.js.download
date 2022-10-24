@@ -1,0 +1,233 @@
+
+
+//1.ways to print in javascript
+// console.log("Hello World");
+// alert("me");
+// document.write("this is document write");
+
+//2.JavaScript console API
+// console.log("Hello World", 4 + 6, "Another log");
+// console.warn("This is warning");
+// console.error("this is an error");
+
+//3.JavaScript consolr API
+//variable container to store data values
+// var number1 = 33;
+// var number2 = 50;
+// console.log(number1+number2);
+
+//4.Data types in javaScript
+//number
+// var num1 = 345;
+// var num2 = 76;
+
+//String
+// var str1 = "this is a String";
+// var str2 = "this is also a String";
+
+//Object
+// var marks = {
+//     ravi :34 ,
+//     shubh :56,
+//     harry :88.55
+// }
+// console.log(marks); 
+
+//Booleans
+// var a = true;
+// var b = false;
+
+// var und = undefined;
+// var und;
+// console.log(und);
+
+// var n = null;
+// console.log(n);
+/*
+At a vary high level , ther are two types
+ of data in java scaript
+ 1. Primitive data types: 
+ undefined,null,number,String,Bollean,Sumbol
+ 2. Reference dtat types:
+Arraus and Objects
+ */
+
+//  var arr = [1,2,3,4,5];
+//  console.log(arr);
+//  console.log(arr[0]);
+//  console.log(arr[3]);
+//  console.log(arr[2]);
+//  console.log(arr[1]);
+
+//  var arr = [1,2,"Sau" , 4,5]
+//  console.log(arr);
+//  console.log(arr[2]);
+//  console.log(arr[3]);
+
+//operators in javascript
+//Arithmetic Operators , * , / , - , + .
+// var c = 34;
+// var d = 78;
+// console.log("The value of c + d is", c + d)
+
+//assignment Operators
+// var e = d;
+// e += 2; // e = e + 2
+// c *= 2;
+// c /= 2;
+// c -= 2;
+// console.log(e);
+
+//conparison operator 
+// var x = 44;
+// var y = 77;
+// console.log( x == y);
+// console.log( x >= y);
+// console.log( x <= y);
+
+// //Logical Operator
+// //logical and
+// console.log(true && true); 
+// console.log(true && false);
+// console.log(false && true);
+// console.log(false && false);
+// //logical or
+// console.log(true || true);
+// console.log(true || false);
+// console.log(false || true);
+// console.log(false || false);
+// //logical not
+// console.log(!true);
+// console.log(!false);
+
+//Function in javascript 
+//DRY = do not repeat yourself
+// function avg(a,b){
+//    c = (a + b)/2;
+//    return c;
+// }
+// c1 = avg(4,6);
+// c2 = avg(13,45);
+// console.log(c1,c2);
+// console.log(3);//number
+// console.log("3");
+// console.log('3');//String
+
+//Condition in javaScript
+// var age = 34;
+// if(age > 8){
+//     console.log('You are not a kid');
+// }
+// else{
+//     console.log('You are a kid');
+// }
+// else if {
+//     console.log('Write Sonmting');
+// }
+
+// var arr = [1,2,3,4,5];
+// console.log(arr[i]);
+// for(var i = 0 ; i < arr.length; i++ ){
+//     console.log(arr[i]);
+// }
+
+// arr.forEach(function(element){
+//     console.log(element);
+// })
+
+// let j = 0;
+// const ac = 0; // constaranct variable 
+// ac ++;
+// ac = ac + 1 ;
+// console.log('while loop')
+// let j = 0;
+// while(j < arr.length){
+//     console.log(arr[j]);
+//     j++;
+// }
+// console.log('This is do while loop')
+// var arr = [1,2,3,4,5,6,7,8,9];
+// let k = 3;
+// do{
+//     console.log(arr[k]); //it will first execute one time
+//     k++;
+// }while(k<arr.length);
+
+// var arr = [1,2,3,4,5];
+// console.log(arr);
+// for(var i = 0 ; i < arr.length; i++ ){
+    // if(i==2){
+    //     break; break all the other run
+    //   continue; not print for 2 and other get print
+    // }
+//     console.log(arr[i]);
+// }
+
+// let myArr =["Fan","Camera",34,null,true];
+//Array Methods
+// console.log(myArr.length);
+// myArr.pop();
+// myArr.push("Saurabh")
+// myArr.shift();
+// myArr.unshift("Munghate");
+// console.log(myArr.unshift("Munghate"));
+// console.log(myArr);
+
+// const newLen = myArr.unshift("Rohu");
+// console.log(newLen);
+// console.log(myArr);
+// console.log(myArr.toString())
+
+// let numb = [32,65,23,7,2,4,1,0];
+// console.log(numb.sort())
+
+//String Methods in javaScript
+// let myString = "Hi this is String ";
+// console.log(myString.length);
+// console.log(myString.indexOf("String"));
+// console.log(myString.lastIndexOf("String"));
+// console.log(myString.slice(1,5));
+
+// let myDate = new Date();
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay());
+// console.log(myDate.getMinutes())
+
+//DOM manipulation
+// let elem = document.getElementById('click');
+// console.log(elem);
+
+// let elemClass = document.getElementsByClassName('container');
+// console.log(elemClass);
+// elemClass[0].style.background = "yellow";
+// elemClass[0].classList.add("bg-primary");
+// elemClass[0].classList.add("text-success");
+
+// console.log(elemClass[0].innerHTML);
+// console.log(elemClass[0].innerText);
+
+// tn = document.getElementsByTagName('button');
+// console.log(tn);
+
+tn = document.getElementsByTagName('div');
+console.log(tn);
+
+createdElement = document.createElement('p');
+createdElement.innerText = "This is created a para";
+tn[0].appendChild(createdElement);
+createdElement2 = document.createElement('b');
+createdElement2.innerText = "This is created a bold";
+tn[0].replaceChild(createdElement2 , createdElement);
+// removeChild(element); ---> ewmoves an element
+
+//Selecting using Query 
+sel = document.querySelector('.container');
+console.log(sel);
+sel = document.querySelectorAll('.container');
+console.log(sel);
+
+function click{
+    console.log('the button was clicked ')
+}
+//Event in javaScript
