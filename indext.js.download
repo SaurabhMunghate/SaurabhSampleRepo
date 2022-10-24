@@ -21,6 +21,11 @@
 // var num1 = 345;
 // var num2 = 76;
 
+//4.Data types in javaScript
+//number
+// var num1 = 345;
+// var num2 = 76;
+
 //String
 // var str1 = "this is a String";
 // var str2 = "this is also a String";
